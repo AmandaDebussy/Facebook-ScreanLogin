@@ -1,0 +1,105 @@
+
+
+:root{
+    --backgroundFacebook :#f2f4f7;
+    --backgroundFooter:#ffff;
+    --ColorButtomFacebook :#42b72a;
+    --ColorButtomFacebookHover: #3b991c;
+}
+
+.ColorBackground{
+    background-color:var(--backgroundFacebook) ;
+}
+
+.facebookLogo{
+width: 20em;
+}
+
+.ColorButtom{
+     background-color:var(--ColorButtomFacebook);
+     transition: 0.2s;
+    
+    }
+
+.ColorButtom:hover{
+    background-color:var(--ColorButtomFacebookHover);
+    transition: 0.2s;
+  
+}
+
+#ViewPassword{
+    display:none;
+    position: fixed;
+    top: 15em;
+    right:32em;
+
+}
+
+.ButtomCunstomFacebook{
+    margin: 0 auto;
+    width: 12em; /*centraliza buttom*/
+}
+
+.BackgroundColorFooter{
+    padding: 1em;
+    margin-top: 4em;
+    height:16em;
+    
+    background-color: var(--backgroundFooter);
+    
+}
+
+.TextNavFacebook{
+    font-size: 12px;
+    margin-right: 9em;
+}
+
+
+.TextFacebookFooter  {
+   font-size: 12px;
+   margin-left:21em;
+
+}
+
+.TextFacebookFooter > a{
+   /* margin-right: 2em; */
+   line-height: 20px;
+
+}
+
+.TextFacebookFooter > a:hover{
+    text-decoration: underline;
+}
+
+.imganuncio{
+    background: url('../img/iconanuncio.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding-right: 15px;
+    background-position: bottom;
+}
+
+
+
+
+.CunstomButtomFacebook{
+    background-color: var(--backgroundFacebook);
+    color: #585858;
+    width: 35px;
+    font-size: 1.4em;
+    border: 1px solid  #dad9d9;
+    cursor: pointer;
+
+}
+
+.linefacebook{
+    width: 60em;
+    margin-left: 8.9em;
+}
+
+.Metafacebookfooter{
+    font-size: 12px;
+    color: #585858;
+    margin-top: 20px;
+    margin-right: 62.5em;
+}
